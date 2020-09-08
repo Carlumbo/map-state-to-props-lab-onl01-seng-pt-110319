@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-// add any needed imports here
+import { connect } from 'react-redux'
 class Users extends Component {
 
   render() {
+    let users = this.props.users.map((users, index) => )
     return (
       <div>
         <ul>
