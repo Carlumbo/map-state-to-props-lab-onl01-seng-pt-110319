@@ -20,8 +20,8 @@ const mapStateToProps = (state) => {
   return {
     users: state.users,
     numOfUsers: state.users.length
-  }
-}
+  };
+};
 
 // connect this component to Redux
 export default connect(mapStateToProps)(Users);
